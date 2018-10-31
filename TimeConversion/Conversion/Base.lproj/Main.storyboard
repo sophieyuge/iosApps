@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="l1B-UA-Gme">
+                                <rect key="frame" x="137.5" y="214" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="mma-o0-PEr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click Update to Convert" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMT-A8-br9">
+                                <rect key="frame" x="96" y="464" width="183.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tzH-B2-prj">
+                                <rect key="frame" x="162" y="318.5" width="51" height="30"/>
+                                <state key="normal" title="Update"/>
+                                <connections>
+                                    <action selector="updateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bBM-bj-Izq"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="b07-UU-FFl">
+                                <rect key="frame" x="96" y="376" width="182" height="29"/>
+                                <rect key="contentStretch" x="0.40000000000000002" y="0.0" width="1" height="1"/>
+                                <segments>
+                                    <segment title="Hour"/>
+                                    <segment title="Minute"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="in Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LMQ-bD-Xuw">
+                                <rect key="frame" x="264" y="220" width="48" height="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="b07-UU-FFl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ivn-Et-jpW"/>
+                            <constraint firstItem="tzH-B2-prj" firstAttribute="top" secondItem="LMQ-bD-Xuw" secondAttribute="bottom" constant="78.5" id="JGe-6R-Rh0"/>
+                            <constraint firstItem="LMQ-bD-Xuw" firstAttribute="leading" secondItem="l1B-UA-Gme" secondAttribute="trailing" constant="99" id="T3s-m4-W2l"/>
+                            <constraint firstItem="tzH-B2-prj" firstAttribute="top" secondItem="l1B-UA-Gme" secondAttribute="bottom" constant="74.5" id="VCB-Zv-XE3"/>
+                            <constraint firstItem="jMT-A8-br9" firstAttribute="top" secondItem="b07-UU-FFl" secondAttribute="bottom" constant="60" id="Yht-4E-8jo"/>
+                            <constraint firstItem="l1B-UA-Gme" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kdH-RD-TA0"/>
+                            <constraint firstItem="tzH-B2-prj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="miL-2s-8DE"/>
+                            <constraint firstItem="jMT-A8-br9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nGu-7e-yo7"/>
+                            <constraint firstItem="b07-UU-FFl" firstAttribute="top" secondItem="tzH-B2-prj" secondAttribute="bottom" constant="27.5" id="ufo-bb-LPd"/>
+                            <constraint firstItem="tzH-B2-prj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zjK-vl-eL0"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="inputUnit" destination="l1B-UA-Gme" id="yTo-Fg-wGa"/>
+                        <outlet property="outputUnit" destination="jMT-A8-br9" id="TuZ-9w-emc"/>
+                        <outlet property="switchUnit" destination="b07-UU-FFl" id="11t-BD-B8U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
