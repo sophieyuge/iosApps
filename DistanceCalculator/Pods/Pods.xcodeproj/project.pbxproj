@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C5B1FFCB51FE07CD70F7EC8FCB986E /* DGDistanceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D4487A3F394C456037CB4E0CFF7CB16 /* DGDistanceRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72E95E1388014A7C9D0318A1C2E930C7 /* Pods-DistanceCalculatorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C506970A6F3629295186E220D8EF4D /* Pods-DistanceCalculatorTests-dummy.m */; };
+		939FAD716DB31BDF2472A3FF5D4BEDE0 /* DGDistanceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8217523E2205367CC01A5407436180 /* DGDistanceRequest.m */; };
+		9C0EF432636F75FA6771C985E8BFD217 /* Pods-DistanceCalculatorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 990435F531D4074870B4819260662A14 /* Pods-DistanceCalculatorUITests-dummy.m */; };
+		9DDB18CE31A71697B54AC7330D644606 /* DistanceGetter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD5BADD8FACDFA7BA0F21B6E7F33E5 /* DistanceGetter-dummy.m */; };
+		B6128D31FFEBB7F45C26F8F4A9BDE4BA /* Pods-DistanceCalculator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC5848965ABCAE4AF68788E3DF9169B /* Pods-DistanceCalculator-dummy.m */; };
+		F33746C58662499A984E9E54116ABD4F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420AC4BCBD1EAFF10BC6F87C28FBA5DC /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CE0875FCB738DA3BE68E01D7F823066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3590509F8F98B68367D0A6223313AADD;
+			remoteInfo = DistanceGetter;
+		};
+		8B59973E60C463D2252C935AAD2CFCE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3235C080C787D876B3E18CC9F88C2FC0;
+			remoteInfo = "Pods-DistanceCalculator";
+		};
+		FF58AD4F7D6ECBD3F73DD5A9C6F92263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3235C080C787D876B3E18CC9F88C2FC0;
+			remoteInfo = "Pods-DistanceCalculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0418EA7AEBAAD2AAF876CF1A97AFE8B4 /* Pods-DistanceCalculatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistanceCalculatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F8217523E2205367CC01A5407436180 /* DGDistanceRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DGDistanceRequest.m; path = Pod/Classes/DGDistanceRequest.m; sourceTree = "<group>"; };
+		18CD5BADD8FACDFA7BA0F21B6E7F33E5 /* DistanceGetter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DistanceGetter-dummy.m"; sourceTree = "<group>"; };
+		1D4CED6D8AF4CDD699747CFE3DE3AB39 /* Pods-DistanceCalculatorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistanceCalculatorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		1FCA7748C7AF687B82AD18C9C5EA33A1 /* Pods-DistanceCalculatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistanceCalculatorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F4FA91E77BF8A7DE8ADAD97F2AC29A0 /* Pods-DistanceCalculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistanceCalculator.debug.xcconfig"; sourceTree = "<group>"; };
+		3473E06D8B1D7E6EFF4086962DE248A8 /* Pods-DistanceCalculator-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistanceCalculator-resources.sh"; sourceTree = "<group>"; };
+		420AC4BCBD1EAFF10BC6F87C28FBA5DC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		456C4674A69E221BF89CA7B7A7438CDE /* Pods-DistanceCalculatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistanceCalculatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		462E13BFFD5798DA841060F9694F92D4 /* Pods-DistanceCalculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistanceCalculator.release.xcconfig"; sourceTree = "<group>"; };
+		576F4E13101E85D421BB0BD7C0F36141 /* libPods-DistanceCalculatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DistanceCalculatorTests.a"; path = "libPods-DistanceCalculatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		594BBA90539A43CAF174BA2C0E774DFB /* Pods-DistanceCalculatorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DistanceCalculatorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D4487A3F394C456037CB4E0CFF7CB16 /* DGDistanceRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DGDistanceRequest.h; path = Pod/Classes/DGDistanceRequest.h; sourceTree = "<group>"; };
+		7C7B8E8E07B19E821C193A2F16E92378 /* libPods-DistanceCalculatorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DistanceCalculatorUITests.a"; path = "libPods-DistanceCalculatorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8366A0D8F5A59F188936BC01BE4E70A9 /* Pods-DistanceCalculatorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DistanceCalculatorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8902374B4E6B68BB2427D6693BBD7DCE /* Pods-DistanceCalculator-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistanceCalculator-frameworks.sh"; sourceTree = "<group>"; };
+		89C506970A6F3629295186E220D8EF4D /* Pods-DistanceCalculatorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DistanceCalculatorTests-dummy.m"; sourceTree = "<group>"; };
+		8CC59A3C7D72E0CDCAFD945C9B22DA6D /* Pods-DistanceCalculator-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DistanceCalculator-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		990435F531D4074870B4819260662A14 /* Pods-DistanceCalculatorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DistanceCalculatorUITests-dummy.m"; sourceTree = "<group>"; };
+		9AC5848965ABCAE4AF68788E3DF9169B /* Pods-DistanceCalculator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DistanceCalculator-dummy.m"; sourceTree = "<group>"; };
+		AD5300972479839520D75AD2559CCB74 /* libPods-DistanceCalculator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DistanceCalculator.a"; path = "libPods-DistanceCalculator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B8E059668505B75FEA7E431E6E1A32 /* Pods-DistanceCalculator-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DistanceCalculator-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6BD06F3AAF68C28CBFD7A57142ECCDD /* Pods-DistanceCalculatorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistanceCalculatorTests-frameworks.sh"; sourceTree = "<group>"; };
+		D54D54E58EADA4BC45172F1CBC46F23C /* Pods-DistanceCalculatorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistanceCalculatorTests-resources.sh"; sourceTree = "<group>"; };
+		D6F4D588BAA318301188D95485425BCD /* Pods-DistanceCalculatorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DistanceCalculatorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9FDED2503CE9398F30032E0971D0ACA /* Pods-DistanceCalculatorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DistanceCalculatorUITests-resources.sh"; sourceTree = "<group>"; };
+		E8E494537D1379DC4A2422D99AB93087 /* Pods-DistanceCalculatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DistanceCalculatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDDA82E66EE98F23E36A55C606F0A7A0 /* libDistanceGetter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDistanceGetter.a; path = libDistanceGetter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0165FFBE75CE6376F8018C9A973C45E /* DistanceGetter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DistanceGetter-prefix.pch"; sourceTree = "<group>"; };
+		F052CCCAF87FDBFBD03F2F7FC6C6C6B9 /* Pods-DistanceCalculatorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DistanceCalculatorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF583743E0B17E6E0A0B4DCC7C412543 /* DistanceGetter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DistanceGetter.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AEA5BF39EFB62602FAB6E61F73CC04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C1EBA93CEAC1A5F74EA48C46E2F6884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE7CFB254953829BD3DD436CCFC43DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33746C58662499A984E9E54116ABD4F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF9BF038649EF1B6F4F04BA8120A9BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C999CAFE9D92776D5488627EE7AEB5 /* Pods-DistanceCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				8CC59A3C7D72E0CDCAFD945C9B22DA6D /* Pods-DistanceCalculator-acknowledgements.markdown */,
+				B6B8E059668505B75FEA7E431E6E1A32 /* Pods-DistanceCalculator-acknowledgements.plist */,
+				9AC5848965ABCAE4AF68788E3DF9169B /* Pods-DistanceCalculator-dummy.m */,
+				8902374B4E6B68BB2427D6693BBD7DCE /* Pods-DistanceCalculator-frameworks.sh */,
+				3473E06D8B1D7E6EFF4086962DE248A8 /* Pods-DistanceCalculator-resources.sh */,
+				2F4FA91E77BF8A7DE8ADAD97F2AC29A0 /* Pods-DistanceCalculator.debug.xcconfig */,
+				462E13BFFD5798DA841060F9694F92D4 /* Pods-DistanceCalculator.release.xcconfig */,
+			);
+			name = "Pods-DistanceCalculator";
+			path = "Target Support Files/Pods-DistanceCalculator";
+			sourceTree = "<group>";
+		};
+		1DF1B60DBA33CA4E1ED4076432D5EBB0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C999CAFE9D92776D5488627EE7AEB5 /* Pods-DistanceCalculator */,
+				4962D7DFF88BAE9EDAEEF63683C871AB /* Pods-DistanceCalculatorTests */,
+				578DCE3D739BFEB5B623666317BE4CD6 /* Pods-DistanceCalculatorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3E3DC3E121A505B8F16DCFAC44733743 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF583743E0B17E6E0A0B4DCC7C412543 /* DistanceGetter.xcconfig */,
+				18CD5BADD8FACDFA7BA0F21B6E7F33E5 /* DistanceGetter-dummy.m */,
+				F0165FFBE75CE6376F8018C9A973C45E /* DistanceGetter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DistanceGetter";
+			sourceTree = "<group>";
+		};
+		4962D7DFF88BAE9EDAEEF63683C871AB /* Pods-DistanceCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				8366A0D8F5A59F188936BC01BE4E70A9 /* Pods-DistanceCalculatorTests-acknowledgements.markdown */,
+				D6F4D588BAA318301188D95485425BCD /* Pods-DistanceCalculatorTests-acknowledgements.plist */,
+				89C506970A6F3629295186E220D8EF4D /* Pods-DistanceCalculatorTests-dummy.m */,
+				C6BD06F3AAF68C28CBFD7A57142ECCDD /* Pods-DistanceCalculatorTests-frameworks.sh */,
+				D54D54E58EADA4BC45172F1CBC46F23C /* Pods-DistanceCalculatorTests-resources.sh */,
+				1FCA7748C7AF687B82AD18C9C5EA33A1 /* Pods-DistanceCalculatorTests.debug.xcconfig */,
+				0418EA7AEBAAD2AAF876CF1A97AFE8B4 /* Pods-DistanceCalculatorTests.release.xcconfig */,
+			);
+			name = "Pods-DistanceCalculatorTests";
+			path = "Target Support Files/Pods-DistanceCalculatorTests";
+			sourceTree = "<group>";
+		};
+		5762748C4D8728ECAC3E21E022301170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDDA82E66EE98F23E36A55C606F0A7A0 /* libDistanceGetter.a */,
+				AD5300972479839520D75AD2559CCB74 /* libPods-DistanceCalculator.a */,
+				576F4E13101E85D421BB0BD7C0F36141 /* libPods-DistanceCalculatorTests.a */,
+				7C7B8E8E07B19E821C193A2F16E92378 /* libPods-DistanceCalculatorUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578DCE3D739BFEB5B623666317BE4CD6 /* Pods-DistanceCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F052CCCAF87FDBFBD03F2F7FC6C6C6B9 /* Pods-DistanceCalculatorUITests-acknowledgements.markdown */,
+				594BBA90539A43CAF174BA2C0E774DFB /* Pods-DistanceCalculatorUITests-acknowledgements.plist */,
+				990435F531D4074870B4819260662A14 /* Pods-DistanceCalculatorUITests-dummy.m */,
+				1D4CED6D8AF4CDD699747CFE3DE3AB39 /* Pods-DistanceCalculatorUITests-frameworks.sh */,
+				D9FDED2503CE9398F30032E0971D0ACA /* Pods-DistanceCalculatorUITests-resources.sh */,
+				456C4674A69E221BF89CA7B7A7438CDE /* Pods-DistanceCalculatorUITests.debug.xcconfig */,
+				E8E494537D1379DC4A2422D99AB93087 /* Pods-DistanceCalculatorUITests.release.xcconfig */,
+			);
+			name = "Pods-DistanceCalculatorUITests";
+			path = "Target Support Files/Pods-DistanceCalculatorUITests";
+			sourceTree = "<group>";
+		};
+		6255E29DA545FA03385A8B488AB183CD /* DistanceGetter */ = {
+			isa = PBXGroup;
+			children = (
+				5D4487A3F394C456037CB4E0CFF7CB16 /* DGDistanceRequest.h */,
+				0F8217523E2205367CC01A5407436180 /* DGDistanceRequest.m */,
+				3E3DC3E121A505B8F16DCFAC44733743 /* Support Files */,
+			);
+			name = DistanceGetter;
+			path = DistanceGetter;
+			sourceTree = "<group>";
+		};
+		6651DE11B53DE866D7772354970B5476 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6255E29DA545FA03385A8B488AB183CD /* DistanceGetter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6651DE11B53DE866D7772354970B5476 /* Pods */,
+				5762748C4D8728ECAC3E21E022301170 /* Products */,
+				1DF1B60DBA33CA4E1ED4076432D5EBB0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB3DDB987E305E8C5488EA8E610EE9AB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB3DDB987E305E8C5488EA8E610EE9AB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				420AC4BCBD1EAFF10BC6F87C28FBA5DC /* MapKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		332F6C2EE4FF5861468A56EDD0F3C69C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		572ECBCBEF51B36D2A50168EC9311DE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70CE85C659A380582532138619CD79E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C5B1FFCB51FE07CD70F7EC8FCB986E /* DGDistanceRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92FF94C0D1DCE6941062C7B1FE4FD7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1229A75570941CCFF52FE8AE7CC84613 /* Pods-DistanceCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AFDBC815FC64C89EBA206F1FE90C72 /* Build configuration list for PBXNativeTarget "Pods-DistanceCalculatorUITests" */;
+			buildPhases = (
+				B92FF94C0D1DCE6941062C7B1FE4FD7D /* Headers */,
+				F0E65E17DFEB60793B7DE9A1F445B642 /* Sources */,
+				9C1EBA93CEAC1A5F74EA48C46E2F6884 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D258310019E9E379623D342FD969BA49 /* PBXTargetDependency */,
+			);
+			name = "Pods-DistanceCalculatorUITests";
+			productName = "Pods-DistanceCalculatorUITests";
+			productReference = 7C7B8E8E07B19E821C193A2F16E92378 /* libPods-DistanceCalculatorUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3235C080C787D876B3E18CC9F88C2FC0 /* Pods-DistanceCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433577909970F9E2FFCDCAF73974DE63 /* Build configuration list for PBXNativeTarget "Pods-DistanceCalculator" */;
+			buildPhases = (
+				332F6C2EE4FF5861468A56EDD0F3C69C /* Headers */,
+				14AFADEFBC146DF5C616BB4EF3C62347 /* Sources */,
+				2AEA5BF39EFB62602FAB6E61F73CC04E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C827CDBC2543FB2786AC8E2FE9B54A35 /* PBXTargetDependency */,
+			);
+			name = "Pods-DistanceCalculator";
+			productName = "Pods-DistanceCalculator";
+			productReference = AD5300972479839520D75AD2559CCB74 /* libPods-DistanceCalculator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3590509F8F98B68367D0A6223313AADD /* DistanceGetter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06486393A1A05392668814033470E702 /* Build configuration list for PBXNativeTarget "DistanceGetter" */;
+			buildPhases = (
+				70CE85C659A380582532138619CD79E4 /* Headers */,
+				8CCC8D0F5C296FFA7E4C390E84D9DF10 /* Sources */,
+				9EE7CFB254953829BD3DD436CCFC43DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceGetter;
+			productName = DistanceGetter;
+			productReference = EDDA82E66EE98F23E36A55C606F0A7A0 /* libDistanceGetter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E9C7514349C3E770976F17F27E22D219 /* Pods-DistanceCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 508F1FC47026EA8BD86E5B57DB2123FD /* Build configuration list for PBXNativeTarget "Pods-DistanceCalculatorTests" */;
+			buildPhases = (
+				572ECBCBEF51B36D2A50168EC9311DE9 /* Headers */,
+				AD2356B10026BFA6F02CE4BD38A30E90 /* Sources */,
+				EAF9BF038649EF1B6F4F04BA8120A9BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65EDCD73ED23A70669164E22F72CBB6B /* PBXTargetDependency */,
+			);
+			name = "Pods-DistanceCalculatorTests";
+			productName = "Pods-DistanceCalculatorTests";
+			productReference = 576F4E13101E85D421BB0BD7C0F36141 /* libPods-DistanceCalculatorTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5762748C4D8728ECAC3E21E022301170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3590509F8F98B68367D0A6223313AADD /* DistanceGetter */,
+				3235C080C787D876B3E18CC9F88C2FC0 /* Pods-DistanceCalculator */,
+				E9C7514349C3E770976F17F27E22D219 /* Pods-DistanceCalculatorTests */,
+				1229A75570941CCFF52FE8AE7CC84613 /* Pods-DistanceCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14AFADEFBC146DF5C616BB4EF3C62347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6128D31FFEBB7F45C26F8F4A9BDE4BA /* Pods-DistanceCalculator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CCC8D0F5C296FFA7E4C390E84D9DF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939FAD716DB31BDF2472A3FF5D4BEDE0 /* DGDistanceRequest.m in Sources */,
+				9DDB18CE31A71697B54AC7330D644606 /* DistanceGetter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2356B10026BFA6F02CE4BD38A30E90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72E95E1388014A7C9D0318A1C2E930C7 /* Pods-DistanceCalculatorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0E65E17DFEB60793B7DE9A1F445B642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0EF432636F75FA6771C985E8BFD217 /* Pods-DistanceCalculatorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65EDCD73ED23A70669164E22F72CBB6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DistanceCalculator";
+			target = 3235C080C787D876B3E18CC9F88C2FC0 /* Pods-DistanceCalculator */;
+			targetProxy = 8B59973E60C463D2252C935AAD2CFCE6 /* PBXContainerItemProxy */;
+		};
+		C827CDBC2543FB2786AC8E2FE9B54A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DistanceGetter;
+			target = 3590509F8F98B68367D0A6223313AADD /* DistanceGetter */;
+			targetProxy = 6CE0875FCB738DA3BE68E01D7F823066 /* PBXContainerItemProxy */;
+		};
+		D258310019E9E379623D342FD969BA49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DistanceCalculator";
+			target = 3235C080C787D876B3E18CC9F88C2FC0 /* Pods-DistanceCalculator */;
+			targetProxy = FF58AD4F7D6ECBD3F73DD5A9C6F92263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C7569E775E3B251CEF29E9AFE36EDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF583743E0B17E6E0A0B4DCC7C412543 /* DistanceGetter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DistanceGetter/DistanceGetter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DistanceGetter;
+				PRODUCT_NAME = DistanceGetter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86E014834E17D1703BC26963929A351F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF583743E0B17E6E0A0B4DCC7C412543 /* DistanceGetter.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DistanceGetter/DistanceGetter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DistanceGetter;
+				PRODUCT_NAME = DistanceGetter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A22AA5830A82418F317B10917ABF47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462E13BFFD5798DA841060F9694F92D4 /* Pods-DistanceCalculator.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B9F40A86905ACF51980E8E03F35932DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F4FA91E77BF8A7DE8ADAD97F2AC29A0 /* Pods-DistanceCalculator.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D879C8165D065343F3F6F055312A98EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 456C4674A69E221BF89CA7B7A7438CDE /* Pods-DistanceCalculatorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19471FE7E209D0818DAFB22D649A6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E4C6F23EC028F1BDA82C5DD621DDF469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0418EA7AEBAAD2AAF876CF1A97AFE8B4 /* Pods-DistanceCalculatorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21C48E3A60397F0B3A9C4675E436120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FCA7748C7AF687B82AD18C9C5EA33A1 /* Pods-DistanceCalculatorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6395766D91D57ACD35ACE988298F721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8E494537D1379DC4A2422D99AB93087 /* Pods-DistanceCalculatorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06486393A1A05392668814033470E702 /* Build configuration list for PBXNativeTarget "DistanceGetter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86E014834E17D1703BC26963929A351F /* Debug */,
+				1C7569E775E3B251CEF29E9AFE36EDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19471FE7E209D0818DAFB22D649A6E9 /* Debug */,
+				8DFC9796FA9E6BCF680E1E0B1780DD0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433577909970F9E2FFCDCAF73974DE63 /* Build configuration list for PBXNativeTarget "Pods-DistanceCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9F40A86905ACF51980E8E03F35932DE /* Debug */,
+				8A22AA5830A82418F317B10917ABF47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AFDBC815FC64C89EBA206F1FE90C72 /* Build configuration list for PBXNativeTarget "Pods-DistanceCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D879C8165D065343F3F6F055312A98EF /* Debug */,
+				F6395766D91D57ACD35ACE988298F721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		508F1FC47026EA8BD86E5B57DB2123FD /* Build configuration list for PBXNativeTarget "Pods-DistanceCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21C48E3A60397F0B3A9C4675E436120 /* Debug */,
+				E4C6F23EC028F1BDA82C5DD621DDF469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
